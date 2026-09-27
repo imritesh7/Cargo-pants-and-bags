@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cargo Pant & Bags</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">URBAN GEAR</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="cart">
+            🛒 Cart <span id="cart-count">0</span>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-heading">EVERYDAY • UTILITY • STYLE</p>
+
+            <h1>
+                Built for your<br>
+                everyday journey.
+            </h1>
+
+            <p>
+                Discover versatile cargo pants and unique backpacks
+                designed for everyday comfort and style.
+            </p>
+
+            <a href="#products" class="shop-button">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+
+        <div class="section-heading">
+            <p>OUR COLLECTION</p>
+            <h2>Featured Products</h2>
+        </div>
+
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span>Product Image</span>
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">CARGO PANTS</p>
+
+                    <h3>Urban Utility Cargo Pant</h3>
+
+                    <p class="description">
+                        Comfortable cargo pants with multiple
+                        utility pockets for everyday use.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹1,499</strong>
+
+                        <button onclick="addToCart()">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 2 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span>Product Image</span>
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">BACKPACK</p>
+
+                    <h3>Urban Explorer Backpack</h3>
+
+                    <p class="description">
+                        A practical everyday backpack designed
+                        for work, travel and daily essentials.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹1,299</strong>
+
+                        <button onclick="addToCart()">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="about">
+
+        <div class="section-heading">
+            <p>WHY US</p>
+            <h2>Made for everyday life.</h2>
+        </div>
+
+        <div class="benefits">
+
+            <div class="benefit">
+                <h3>01</h3>
+                <h4>Practical Design</h4>
+                <p>
+                    Products designed around real everyday needs.
+                </p>
+            </div>
+
+            <div class="benefit">
+                <h3>02</h3>
+                <h4>Comfort First</h4>
+                <p>
+                    Comfortable products you can use throughout the day.
+                </p>
+            </div>
+
+            <div class="benefit">
+                <h3>03</h3>
+                <h4>Built to Last</h4>
+                <p>
+                    Focused on durability, functionality and value.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Offer Banner -->
+    <section class="offer">
+
+        <div>
+            <p>NEW COLLECTION</p>
+
+            <h2>
+                Upgrade your everyday essentials.
+            </h2>
+        </div>
+
+        <a href="#products" class="shop-button">
+            Explore Products
+        </a>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2>Stay Connected</h2>
+
+        <p>
+            Follow our journey and discover our latest products.
+        </p>
+
+        <button>
+            Contact Us
+        </button>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="logo">URBAN GEAR</div>
+
+        <p>
+            © 2026 Urban Gear. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
